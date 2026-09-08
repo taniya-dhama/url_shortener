@@ -1,14 +1,13 @@
 {
 	"info": {
-		"_postman_id": "2f5d249a-7600-45b0-91e4-972d09030847",
-		"name": "BitLinks",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24335059",
-		"_collection_link": "https://martian-station-78370.postman.co/workspace/Sigma-Web-Development-Express~5db32297-9967-4e1b-afb8-3d38caf12a97/collection/24335059-2f5d249a-7600-45b0-91e4-972d09030847?action=share&source=collection_link&creator=24335059"
+		"_postman_id": "8b1c4f2e-3a9d-4e7f-9c6b-1d5e7a2f9c3b",
+		"name": "BitLinks - URL Shortener API",
+		"description": "API collection for BitLinks, a URL shortening service. Includes endpoints to generate short links and access the home page.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://localhost:3000/api/generate",
+			"name": "Create Short URL",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -32,12 +31,13 @@
 						"api",
 						"generate"
 					]
-				}
+				},
+				"description": "Generates a short URL for a given long URL. Send the target `url` and desired `shorturl` alias in the request body."
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:3000",
+			"name": "Get Home Page",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -48,7 +48,8 @@
 						"localhost"
 					],
 					"port": "3000"
-				}
+				},
+				"description": "Loads the application's home page."
 			},
 			"response": []
 		}
