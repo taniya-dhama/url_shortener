@@ -3,27 +3,27 @@ The URL Shortener is a web-based application that converts long and complex URLs
 
 
 ## How It Works
-User enters a long URL.
-The application generates a unique short code.
-The original URL and short code are stored in the database.
-The generated short URL is displayed to the user.
-When the short URL is opened, the application finds the original URL.
-The user is redirected to the original website.
+- User enters a long URL.
+- The application generates a unique short code.
+- The original URL and short code are stored in the database.
+- The generated short URL is displayed to the user.
+- When the short URL is opened, the application finds the original URL.
+- The user is redirected to the original website.
 
 
 ## Technologies Used
-Python
-SQLite
-HTML
-CSS
-JavaScript
-Next.js
+- Python
+- SQLite
+- HTML
+- CSS
+- JavaScript
+- Next.js
 
 ## Features
-Convert long URLs into short URLs
-Redirect short URLs to the original URL
-Generate unique short codes
-Store URLs for future access
-Fast and lightweight
-Simple and easy-to-use interface
-Built using Python
+- Convert long URLs into short URLs
+- Redirect short URLs to the original URL
+- Generate unique short codes
+- Store URLs for future access
+- Fast and lightweight
+- Simple and easy-to-use interface
+- Built using Python
